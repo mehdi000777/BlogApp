@@ -1,0 +1,10 @@
+.show_html {
+    p img,
+    iframe {
+        max-width: 600px;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        margin: auto;
+    }
+}

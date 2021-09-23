@@ -1,0 +1,56 @@
+@import "utils";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.notfound {
+    min-height: calc(100vh - 75px);
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: translateY(-3px);
+}
+
+// --------- Auth Page --------
+@import "auth";
+
+// --------- Loading Page ------
+@import "loading";
+
+// ------ Profile Page--------
+@import "profile";
+
+// ------ Category Page--------
+@import "categroy";
+
+// ------ Home Page--------
+@import "home";
+
+// ------ Blogs Category Page--------
+@import "blogsCategory";
+
+// ------ Blog Page--------
+@import "blog";
+
+// ------ Comments --------
+@import "comments";
+

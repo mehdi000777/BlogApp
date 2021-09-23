@@ -1,0 +1,24 @@
+.auth_page {
+    width: 100%;
+    padding: 2.5rem 0;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+
+    .auth_box {
+        max-width: 400px;
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 2.7rem 1.7rem;
+
+        input::placeholder {
+            opacity: 0.4;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+    @include password;
+}
